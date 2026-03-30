@@ -1,0 +1,18 @@
+{
+  "MODEL_NAME": "GCN_Ablation_NoFPFusion",
+  "SEED": 42,
+  "RADIUS": 2,
+  "NBITS": 2048,
+  "HIDDEN_DIM": 256,
+  "DROPOUT": 0.2,
+  "LR": 0.001,
+  "WEIGHT_DECAY": 1e-05,
+  "EPOCHS": 150,
+  "PATIENCE": 12,
+  "EVAL_EVERY": 5,
+  "NEG_SAMPLING_RATIO": 1,
+  "TRAIN_POS_RATIO": 0.85,
+  "VAL_POS_RATIO": 0.15,
+  "BEST_THRESHOLD_FROM_VAL": 0.63,
+  "ABLATION_NOTE": "Only use GCN pair embedding [|h_u-h_v|, h_u*h_v], without raw fingerprint fusion in decoder."
+}
