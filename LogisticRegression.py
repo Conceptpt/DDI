@@ -16,8 +16,8 @@ from sklearn.metrics import roc_auc_score, roc_curve, confusion_matrix, classifi
 from sklearn.model_selection import train_test_split
 
 # ================== 配置参数 ==================
-TRAIN_PATH = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\test.csv"  # 训练集文件路径
-TEST_PATH = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\train.csv"  # 测试集文件路径
+TRAIN_PATH = r".\dataset\drugbankddi\raw\train.csv"  # 训练集文件路径
+TEST_PATH = r".\dataset\drugbankddi\raw\test.csv"  # 测试集文件路径
 RADIUS = 2  # 摩根指纹半径
 NBITS = 2048  # 指纹长度
 SAVE_FIGURES = True  # 是否保存图片

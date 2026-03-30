@@ -85,11 +85,11 @@ TSNE_PCA_DIM = 50                 # t-SNE 前先 PCA 到多少维
 TSNE_PERPLEXITY = 30
 
 # 数据路径
-TRAIN_CSV = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\train.csv"
-TEST_CSV = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\test.csv"
+TRAIN_CSV = r".\dataset\drugbankddi\raw\train.csv"
+TEST_CSV = r".\dataset\drugbankddi\raw\test.csv"
 
 # 输出目录
-ARTIFACT_DIR = "I_GCN_Results"
+ARTIFACT_DIR = "I_GCN_Results2"
 os.makedirs(ARTIFACT_DIR, exist_ok=True)
 
 

@@ -71,8 +71,8 @@ TRAIN_POS_RATIO = 0.85
 VAL_POS_RATIO = 0.15
 
 # 数据路径
-TRAIN_CSV = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\train.csv"
-TEST_CSV = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\dataset\drugbankddi\raw\test.csv"
+TRAIN_CSV = r".\dataset\drugbankddi\raw\train.csv"
+TEST_CSV = r".\dataset\drugbankddi\raw\test.csv"
 
 # 输出目录
 ARTIFACT_DIR = "GCN_Results"

@@ -34,8 +34,9 @@ st.set_page_config(
 # =========================================================
 # 路径配置
 # 建议这里先用绝对路径，最稳
-# =========================================================
-ARTIFACT_DIR = r"D:\DeepL_Project\GnnbasedDrugDrugInteractionPrediction-github\I_GCN_Results"
+# ============================================
+# =============
+ARTIFACT_DIR = r"./I_GCN_Results"
 
 MODEL_PATH = os.path.join(ARTIFACT_DIR, "best_gcn_model.pth")
 NODE_FEATURES_PATH = os.path.join(ARTIFACT_DIR, "node_features.pt")
